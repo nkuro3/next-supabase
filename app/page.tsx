@@ -5,6 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-24">
       <Link href="login">Login</Link>
       <Link href="private">Private</Link>
+      <Link href="change-email">Change Email</Link>
     </main>
   );
 }

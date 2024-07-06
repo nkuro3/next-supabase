@@ -5,7 +5,7 @@ import { resetRequest, doReset } from './actions';
 import { createClient } from '@/utils/supabase/client';
 import { useRouter } from 'next/navigation';
 
-export default function LoginPage() {
+export default function ResetPasswordPage() {
   const router = useRouter();
   const [password, setPassword] = useState('');
 
